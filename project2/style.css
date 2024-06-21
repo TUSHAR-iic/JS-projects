@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding :0;
@@ -85,4 +86,93 @@ body{
     max-height : 300px;
     margin : 10px auto;
     border: 1px solid black;
+=======
+*{
+    margin: 0;
+    padding :0;
+    box-sizing : border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background : #112942;
+    height : 100vh;
+    /* needed to put the content in center */
+    display : flex;
+    /* align in center vertically */
+    align-items : center;
+    /* justify in horizontally  */
+    justify-content: center;
+}
+.container{
+    /* height : 200px; */
+    width : 400px;
+    padding: 25px 35px;
+    top : 50%;
+    left : 50%;
+    transform :translate(-50% , -50%);
+    background-color: #e3edf7;
+    position : absolute;
+    border-radius: 15px ;
+    
+}
+.things{
+    padding : 20px;
+    display: block;
+    /* align-items :; */
+    
+}
+.things p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.things input {
+    border: 1px solid rgb(65, 65, 232);
+    border-radius: 5px;
+    padding: 8px;
+    /* max-width: max-content; */
+    /* to us the full size(width) of the button  */
+    width : 100%;
+    height : 50px;
+    margin :10px 0 20px;
+}
+.things button{
+    width :100%;
+    height : 50px;
+    background-color:  rgb(65, 65, 232);
+    color :#e3edf7;
+    font-weight : 600;
+    font-size: 15px;
+    border-radius: 5px;
+/* border of button */
+    border: 0;
+    outline: 0;
+/* outline of button */
+    padding: 8px;
+    box-shadow:0 10px 10px rgba(0,0,0,0.1);
+    /* to change the cursor pointer  */
+    cursor : pointer ;
+}
+
+#imgbox{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    /* display: none; Initially hidden */
+    transition: max-height 1s ;
+}
+#imgbox img{
+    /* display:flex; */
+    width : 100px;
+    padding: 10px;
+}
+/* this class will be applied whenever the qr code is dipalying */
+#imgbox.show-img{
+    max-height : 300px;
+    margin : 10px auto;
+    border: 1px solid black;
+>>>>>>> origin/master
 }
