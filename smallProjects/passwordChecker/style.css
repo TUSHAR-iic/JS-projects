@@ -1,0 +1,45 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : #112942;
+    height : 100vh;
+}
+.container{
+    height : 200px; 
+    width : 400px;
+    padding: 25px 35px;
+    top : 50%;
+    left : 50%;
+    transform :translate(-50% , -50%);
+    background-color: #e3edf7;
+    position : absolute;
+    border-radius: 15px ;
+    
+}
+.container input{
+    border-radius : 5px;
+    padding: 10px;
+    width : 100%;
+    border: 1px solid rgb(65, 65, 232);
+}
+.container button{
+    margin-top: 10px;
+    width: 100%;
+    padding : 15px;
+    color :white ;
+    background-color: #3a89dd;
+    outline: 0;
+    border : 0;
+    cursor: pointer;
+}
+.container label{
+    font-weight : bold;
+    color: #3a89dd;
+    align-self: center;
+}
